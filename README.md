@@ -1,2 +1,7 @@
 # UKHousing1995-2022
 Housing Prices by Area Code and Location for the United Kingdom (1995-2022)
+The database created within this file contains a dataset imported from the “. Gov" website. It encompasses an array of prices associated with the cost of housing within a given area in the United Kingdom. Initially, I ran through data cleansing techniques using Excel, which included but was not limited to the grouping of area code by the first three characters using the "Left" formula, removing data inconsistencies noted within the Names columns (Duplications, Spacing issues, Null Cells), creating a unique primary key (ID), reformatting the tabular view. 
+After this, I used "MySQL Workbench" to create the database and table to match the parameters of the "housing.csv" file. Then, I imported the now cleaned dataset into the newly formed database aptly named "U. K-Housing-1995-2022", ready for querying.  
+Finally, I connected the database to a data visualization tool (Tableau) for further analysis and to present my findings. I created Gantt and line charts alongside choropleth maps to represent the forecast on housing within the UK over the next five years whilst showing areas' current and historical status for the last 27 years.
+
+This hyperlink contains the Tableau Dashboard and Story : https://public.tableau.com/views/HousingUK1995-2022/AverageAccommadationPrices1995-2022?:language=en-GB&:display_count=n&:origin=viz_share_link
